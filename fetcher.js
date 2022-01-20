@@ -2,7 +2,7 @@ const request = require('request');
 const fs = require('fs')
 
 const input=process.argv.slice(2)
-if (args.length !== 2) {
+if (input.length !== 2) {
   console.log("Invalid Input!");
   process.exit();
 }
